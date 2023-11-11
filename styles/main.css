@@ -263,16 +263,208 @@ main section .slider-container {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    /* margin: 0;
-    padding: 0; */
 }
 
 .collections .collection-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 1.25rem;
+    margin: 0 auto;
+    
 }
 
+.collections .collection-container .collection {
+    margin-right: 3rem;
+}
+
+.collections .collection-container .collection div{
+    
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #ffffff;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collections .collection-container .collection img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+.collections .collection-container .collection p {
+    text-align: center;
+    margin-top: 0.75rem;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.products {
+    margin: 7.6rem 16.3rem 0 16.3rem;
+
+}
+
+.products .trending-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products .trending-label h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.products .trending-label a {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--pink-btn);
+    text-decoration: none;
+}
+
+.products .product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products .product-wrapper .product {
+    margin: 1.25rem 0 1.25rem 0;
+}
+
+.products .product-wrapper .product .product-container {
+    background-color: #FFFFFF;
+    width: 18.25rem;
+    height: 20rem;
+    padding: 1.25rem 0 0 1.25rem;
+    position: relative;
+    
+}
+
+.products .product-wrapper .product .product-container  p {
+    background-color: #E7FF86;
+    color: #474747;
+    border-radius: 29px;
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.products .product-wrapper .product .product-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9.1rem;
+    margin-left: -10rem;
+}
+
+.products .product-wrapper .product .product-type {
+    margin-top: 1.1rem;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8F8F8F;
+}
+
+.products .product-wrapper .product .product-name {
+    font-size: 24px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.products .product-wrapper .product .price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.products .product-wrapper .product .price .previous-price {
+    text-decoration:line-through;
+    font-size: 24px;
+    font-weight: 400;
+    color: #8F8F8F;
+    margin-right: .5rem;
+}
+
+.products .product-wrapper .product .price .current-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+
+.special-offer {
+    background: #FFFFFF;
+    padding: 5.4rem 0 0 8rem;
+    margin-top: 6.25rem;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.special-offer .img-elipse {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 29rem;
+    height: 29rem;
+    background: linear-gradient(rgba(66, 0, 255, 0.25) , rgba(255, 255, 255, 0));
+    border-radius: 50%;
+    position: relative;
+    margin-right: 4.1rem;
+}
+
+.special-offer .img-elipse img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.special-offer .offer-description h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--pink-btn);
+    margin-top: 1.5rem;
+}
+
+.special-offer .offer-description h4 {
+    font-size: 48px;
+    font-weight: bold;
+    width: 600px;
+    margin-top: 1rem;
+}
+
+.special-offer .offer-description p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 560px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 1.8rem;
+}
+
+.special-offer .offer-description a {
+    padding: 1rem 4.5rem;
+    background-color: var(--pink-btn);
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
 
 footer {
     background: var(--dark-gray);
